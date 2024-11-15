@@ -1,0 +1,368 @@
+
+body {
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    background-color: rgb(34, 39, 40);
+    font-size : 16px;
+    background-image: url(./img/Fond.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position-y: -110px;
+    z-index: -100 ;
+}
+
+h1 {
+    font-size : 40px;
+    color:rgb(225, 221, 210);
+    text-align: center;
+    line-height: 100px;
+    text-shadow:0 0 3px #190f33;
+    -webkit-text-stroke: 2.5px #190f33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     ;
+}
+h2 { 
+    font-size: 30px;
+    margin-bottom: 80px;
+    text-align: center;
+}  
+h2, h3, #aboutMe {
+    color: #190f33;
+}
+
+h2, h3, .subtitle, #aboutMe {
+    font-weight: bold;
+}
+
+
+
+h3, #aboutMe {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#aboutMe {
+    text-align: left;
+}
+.main-block {
+    width : 1024px;
+    background-color: white;
+    border: solid 3px #eeeef7;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.sidenav {
+  
+    height : 40%;
+    width: 245px;
+    position: fixed;
+    background-color: rgb(225, 223, 223);
+    border-radius: 50% 20% 10px 50%;
+    border: #eeeef7 1px solid;
+    z-index: 1;
+    top: 0;
+    right:-250px;
+    padding-top: 60px;
+    transition: right 0.5s ease
+    }
+    
+.sidenav a {
+    padding: 16px 8px 8px 32px;
+    font-size: 17px;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    transition: 0.3s;
+    
+} 
+
+.sidenav a:hover {
+    color: #190f33;
+    text-shadow:0 0 3px #190f33 ;
+}
+.sidenav li {
+    list-style-type:none;
+    margin:0;
+    padding: 0
+}
+
+
+/* Active Class */
+.sidenav.active{
+    right:0;
+    
+}
+
+#openBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    
+    
+
+    
+}
+/* close btn  */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px; 
+    background-color: rgb(225, 223, 223);
+    
+}
+
+/* Icone Burger */
+
+.burger-icon {
+    border-radius: 5px;
+    background-color: rgb(225, 221, 210);
+    margin: 5px;
+    border-color: #eeeef7;
+}
+.burger-icon:hover {
+    border-color: #190f33;
+    cursor: pointer;
+}
+.burger-icon span{
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: #190f33;
+    margin: 6px;
+    
+
+}
+
+#imgPrincipale {
+    height: 400px;
+    width: 1024px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+p {
+    line-height: 30px ;
+}
+  
+section {
+    padding: 100px;
+}
+
+#about {
+    background-color:white
+}   
+
+.profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 100px;
+    gap: 50px;
+    text-align: center;
+}
+
+.profil img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border:  solid 5px #ffffff;
+    object-fit: cover; 
+    margin-right: 20px; 
+    margin-bottom: 0px ;
+}
+
+.name, .city {
+    color: #190f33;
+}
+
+.name {
+    font-size: 30px ;
+    font-weight: bold;     
+    margin-bottom: 50px;
+}
+
+.city {
+    font-size: 28px;
+    font-style: italic;
+}
+
+.aboutText {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}        
+
+#training {
+    background-color:#eeeef7
+}
+
+.logoLangages {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 50px auto;
+}
+
+#training p {
+    align-items: center;
+    text-align: center;
+}
+
+#training span {
+    font-weight: bold;
+}
+
+#training a {
+    text-decoration:none; 
+    font-weight: bold; 
+    color: black;
+}
+
+#training a:hover {
+    text-decoration: underline;
+}
+
+.Project-box {
+display: flex;
+flex-direction: column;         
+}
+
+.Project-box p {
+    text-align: center;
+}
+
+#projetS {
+    background-color:white
+}
+
+.ProjectS {
+    display: flex;
+    align-items: center;
+}
+
+.ProjectS img {
+    width: 500px;
+    height: 500px;
+    margin-right: 60px;
+    object-fit: contain;
+}
+
+li {
+    height: 30px;
+    list-style-type: disc;
+}
+
+#projectM {
+    background-color:#eeeef7;
+}
+
+.projectM {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.logoMusique {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #eeeef7 ;
+    border-radius: 50%;
+    margin: 50px 0;
+    transition-duration: 0.3s;
+}
+
+.logoMusique:hover {
+    border: 3px solid #190f33;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+}
+
+#projectM p {
+    text-align: justify;
+
+}
+#projectG {
+    background-color:white;
+    text-align: center;
+}  
+
+.logoBlob {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #ffffff ;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#contact {
+    background-color:#eeeef7;
+    margin-bottom: 0;
+    border: 3px solid #eeeef7;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#contact div {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 50px;
+margin-bottom: 20px;
+}
+
+#contact img {
+    height: 30px;
+    margin-right: 20px ;
+}
+
+#contact a {
+    color: #000000;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+#contact a:hover {
+    color: #5c48d2;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    
+} 
+
+footer p {
+    color:#646464;
+    line-height: 40px;
+}
+
+footer a {
+    color:#fcc01a;
+    line-height: 40px;
+}
+
+footer a:hover {
+    color:#190f33;
+    
+}

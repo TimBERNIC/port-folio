@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.icon" href="./img/favicon.png">
+    <!-- On peut faire un fichier css par page -->
+    <link rel="stylesheet" href="./reset.css"> 
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+    <title>Portfolio Timothée BERAUDY-NICOLET</title>
+  </head> 
+  <body>
+    <header>
+      <a href="#" id="openBtn">
+        <button class="burger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+        </button>
+      </a>
+      
+      <div id="mySideNav" class="sidenav" >
+        <a id="closeBtn" href="#" class="close">x</a>
+        <ul>
+         <li><a href="#about">À propos</a></li> 
+         <li><a href="#training">Formations</a></li>
+         <li><a href="#projectS">Projets Webs & Mobiles</a></li>
+         <li><a href="#projectM">Productions Musicales</a></li>
+         <li><a href="#projectG">Projets Ludiques</a></li>
+         <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      
+      <!-- Se renseigner, est-ce que 1 seul h1 par app ou par page ?  -->
+      <h1><img style="width:400px; margin-top: 50px;" src="./img/Portfolio.png" alt="Portfolio">Timothée BERAUDY-NICOLET</h1>
+    </header>
+    <main class="main-block">
+      
+    
+        <!-- Photo principale -->
+
+          <img id="imgPrincipale" src="https://i.pinimg.com/originals/64/fe/5b/64fe5b3b17ad480bc54305da2d7c6428.gif">
+
+          <!-- Photo de présentation + description-->
+        <section id="about">
+          <div class="profil">
+            <!-- Espace à supprimer dans fichier img -->
+            <img src="./img/photoCS.png" alt="me">
+            <div>
+              <p class="name">Timothée BERAUDY-NICOLET </p>
+              <p class="city">PERPIGNAN (66)</p>
+            </div>
+          </div>
+
+          <h2 id="aboutMe">À propos de moi</h2>
+            <div class="aboutText">
+              <p>Developpeur Web & Mobile en devenir, anciennement Musicien professionnel passioné de technologie et de jeu de rôle, et enfin Psychomotricien-thérapeute. J'ai décidé de développer ce site pour exposer mes productions personnelles mais aussi pour proposer mes services dans le cadre de ma reconversion professionelle en tant que Développeur Web.</p>
+              <p>Je pratique à ce jour le HTML, le CSS et le JavaScript. Je n'ai de cesse que d'apprendre de nouveaux langages et de progresser dans ceux que je maitrise déjà.
+                C'est fort de mon parcours atypique que je développe mes savoirs et enrichis mes connaissances. L'idée étant de pouvoir adapter mes différentes compétences pour développer des produits de qualité. </p>
+            </div>
+      </section>
+        <!-- Formations -->
+        <section id="training">
+          
+            <h2>Formation de Developpeur Web & Mobile</h2>
+            <p> Les technologies sur lesquelles je me forme actuellement</p>
+              <div class="logoLangages">
+                <img src="./img/html.png">
+                <img src="./img/css.png">
+                <img src="./img/javascript.png">
+              </div>
+
+            <p>Prochainement, je suivrai la formation 
+              <span>Développement Web & Mobile </span>au <a href="https://www.lereacteur.io/">Reacteur</a> afin de perfectionner mes connaissances et d'apprendre de nouvelles technologies :</p>
+              <div class="logoLangages">
+                <img src="./img/react.png">
+                <img src="./img/mongodb.png" style="margin-right:20px"> 
+                <img src="./img/nodeJS.png" style="margin-right:40px">
+                
+              </div>
+            
+        </section>
+        <!-- Projets -->
+        <section id="projectS" >
+        
+          <h2 >Projets Web et Software</h2>
+          <div class="Projet-box">
+            <p> Au cours de ma formation Développement Web & Mobile, je réaliserai plusieurs répliques d'applications Web et d'applications Mobiles :
+            </p>
+            <article  class="ProjectS">
+              <img src="./img/tripadvisor.png">
+              <div>
+                <h3>Tripadvisor Web</h3>
+              
+                <p class="subtitle">Projet Front-End</p>
+                <ul>
+                  <li>Envoi automatisé de Mails</li>
+                  <li>Carousel de photos</li>
+                </ul>
+              </div>
+            </article >
+            <article class="ProjectS">
+              <img src="./img/deliveroo.png">
+              <div>
+                <h3>Deliveroo Web</h3>
+                <p class="subtitle">Projet Front-End</p>
+                  <ul>
+                    <li>Récupération de données</li>
+                    <li>Panier de commandes</li>
+                  </ul>
+              </div>
+            </article >
+            <article class="ProjectS">
+
+              <img src="./img/vinted.png">
+              <div>
+                <h3>Vinted Web</h3>
+                <p class="subtitle">Projet Full-Stack</p>
+                  <ul>
+                    <li>Inscription/connection</li>
+                    <li>Précupération de données</li>
+                    <li>Publication d'annonces</li>
+                    <li>Barre de recherche</li>
+                    <li>Paiement</li>
+                    <li>Upload de photos</li>
+                  </ul>
+              </div>
+            </article> 
+            <article  class="ProjectS">
+              <img src="./img/deliveroo.png">
+              <div>
+                <h3>Airbnb Mobile</h3>
+                <p class="subtitle">Projet Full-Stack</p>
+                  <ul>
+                    <li>Inscription/connection</li>
+                    <li>Modification du profil utilisateur</li>
+                    <li>Affichage de cartes</li>
+                    <li>Géolocalisation</li>
+                    <li>accès à la galerie d'images</li>
+                    <li>accès à l'appareil photos</li>
+                  </ul>
+              </div>
+            </article > 
+          </div>
+        </section>
+        <section id="projectM">
+            <h2 >Productions Musicales</h2>
+              <div class="projectM">
+                <p>Pour éviter d'emboliser cette page réservée à mes compétences de développeur Web et Mobile, je vous invite à découvrir
+                  tout mes autres projets, notamment musicaux sur une autre page. </p>
+        
+                  <br>Rejoindre la page en cliquant sur cette image:</br>
+                <a href="./pages/musicalProducts.html"><img class="logoMusique" src="./img/Musique.jpg"></a>
+              </div>
+        </section>  
+        <section id="projectG">
+ 
+            <h2> Projets jeux de Société, jeux de rôle <br>et Vidéoludisme</br></h2>
+              <div id="Blob-project">
+                <h3>COMING SOON</h3>
+                <img class="logoBlob" src="./img/Blob.jpg">
+              
+                <p>Anciennement dénommé dispositif AVATAR, Le Blob-project est actuellement en cours de process et bientôt en édition.
+                Il s'agit d'abord d'un jeu vidéo puis d'un jeu de société et enfin un jeu de rôle, le tout dans une continuité narrative.
+                Tout d'abord élaboré comme outils thérapeutique par le Dr.LINCOT et moi-même, une version pour une diffusion grand public est en cours de développement dans un but de rassembler les enfants et leur parents autour de ce magnifique jeu multimodal.</p>
+              </div>
+        </section>
+        
+      <!-- Contact -->
+        <section id="contact">
+          <h2 >Contactez moi</h2>
+            <div>
+              <img src="./img/mail.jpg">
+              <a href="mailto:nicolet.t@hotmail.com" target="_blank">nicolet.t@hotmail.com</a>
+            </div>
+            <div>
+              <img src="./img/linkedin.png">
+              <a href="https://www.linkedin.com/in/timoth%C3%A9e-nicolet-8b04a8329/" target="_blank">Linkedin</a>
+            </div>
+            <div>
+              <img src="./img/github.png">
+              <a href="https://github.com/TimBERNIC">gitHub</a>
+            </div>
+        </section>
+    </main> 
+    <footer>
+      <p>Projet réalisé par Timothée BERAUDY-NICOLET</p>
+      <p>Préparation à la formation de Développement Web & Mobile</p>
+      <a href="https://www.lereacteur.io/">Le Réacteur</a>
+    </footer>
+  </body>
+</html>

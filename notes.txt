@@ -1,0 +1,15 @@
+Conventions de nommage fichiers
+
+1/ snake_case
+
+2/ camelCase
+
+3/ PascalCase
+
+4/ kebab-case-lol
+-> noms de classes html, sélecteurs css, etc.
+
+Se renseigner sur la convention de nommage des fichiers HTML.
+
+
+Chemins absolus/relatifs --> A checker
